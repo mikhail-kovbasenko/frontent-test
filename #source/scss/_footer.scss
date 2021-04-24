@@ -1,0 +1,33 @@
+.footer {
+	padding: 22px 130px;
+	background-color: #F2F2F2;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	&__content {
+		display: flex;
+	}
+	&__logo {
+		margin-right: 40px;
+	}
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		font-size: 16px;
+	}
+	&__address {
+	}
+	&__tel {
+	}
+	&__site {
+		color: #1F4766;
+		font-weight: 500;
+	}
+}
+
+@media (max-width: 1179px) {
+	.footer {
+		min-width: 1180px;
+	}
+}

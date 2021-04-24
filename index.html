@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+		<script src="../../js/script.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="main">
+<div class="main__header">
+	<div class="main__header-content">
+		<div class="main__header-logo">
+			<img src="img/header/logo.jpg" alt="">
+		</div>
+		<div class="main__header-search">
+			<div class="main__header-search-input">
+				<input type="text" placeholder="Поиск...">
+			</div>
+			<div class="main__header-search-button">
+				<a href="#">Найти</a>
+			</div>
+		</div>
+		<div class="main__header-login">	
+			<button class="main__header-login-btn" id="login-btn">Войти</button>
+			<div class="main__header-login-auth" id="login-auth">
+				<div class="main__header-login-username">
+					<span class="main__header-login-text" id="user-text"></span>
+					<input type="text" class="main__header-login-input" id="user-textbox" >
+				</div>
+				<a href="#" class="main__header-login-logout" id="logout">Выйти</a>
+			</div>
+		</div>
+	</div>
+</div><div class="main__tabs" id="tabs">
+	<div class="main__tabs-content">
+		<div class="main__tabs-movies tab active" data-action="show-movies">Фильмы</div>
+		<div class="main__tabs-channels tab" data-action="show-channels">Телеканалы</div>
+	</div>
+</div>				<div class="main__content">
+<div class="main__movies" id="movies">
+	<div class="main__movies-content">
+		<div class="main__movies-news-title">
+			<img src="img/content/news.jpg" alt="">
+		</div>
+		<div class="main__movies-list">
+			<div class="main__movies-list-row">
+				<div class="main__movies-item">
+					<div class="main__movies-item-poster cat"></div>
+					<div class="main__movies-item-description">Мульт в кино. Выпуск №103.<br>Некогда грустить!</div>
+				</div>
+				<div class="main__movies-item">
+					<div class="main__movies-item-poster batman"></div>
+					<div class="main__movies-item-description">Новый Бэтмен</div>
+				</div>
+				<div class="main__movies-item">
+					<div class="main__movies-item-poster hollywood">Фильм повествует о череде событий, произошедших в Голливуде в 1969 году, на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</div>
+					<div class="main__movies-item-description">Однажды... в Голливуде</div>
+				</div>
+				<div class="main__movies-item">
+					<div class="main__movies-item-poster girl"></div>
+					<div class="main__movies-item-description">Стриптизёрши</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="main__genres" id="genres">
+	<div class="main__genres-content">
+		<div class="main__genres-genres-title">Жанры</div>
+		<div class="main__genres-list">
+			<div class="main__genres-row">
+				<div class="main__genres-item">
+					<div class="main__genres-poster comedy">
+						<img src="../../img/content/😁.svg" alt="">
+						<div class="main__genres-description">Комедии</div>
+					</div>
+				</div>
+				<div class="main__genres-item">
+					<div class="main__genres-poster drama">
+						<img src="../../img/content/😭.svg" alt="">
+						<div class="main__genres-description">Драмы</div>
+					</div>
+				</div>
+				<div class="main__genres-item">
+					<div class="main__genres-poster sci-fi">
+						<img src="../../img/content/👽.svg" alt="">
+						<div class="main__genres-description">Фантастика</div>
+					</div>
+
+				</div>
+				<div class="main__genres-item">
+					<div class="main__genres-poster horror">
+						<img src="../../img/content/👻.svg" alt="">
+						<div class="main__genres-description">Ужасы</div>
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="main__channels" id="channels">
+	<div class="main__channels-content">
+		<div class="main__channels-container">
+			<div class="main__channels-item">
+				<div class="main__channels-logo">
+					<img src="../../img/content/first-channel.svg" alt="">
+				</div>
+				<div class="main__channels-info">
+					<div class="main__channels-title">Первый канал</div>
+					<div class="main__channels-programm">
+						<div class="main__channels-time">
+							<div class="main__channels-time-item alarm">13:00</div>
+							<div class="main__channels-time-item">14:00</div>
+							<div class="main__channels-time-item">15:00</div>
+						</div>
+						<div class="main__channels-name">
+							<div class="main__channels-name-item alarm">Новости (с субтирами)</div>
+							<div class="main__channels-name-item">Давай поженимся</div>
+							<div class="main__channels-name-item">Другие новости</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__channels-item">
+				<div class="main__channels-logo twoxtwo">
+					<img src="../../img/content/2x2.svg" alt="">
+				</div>
+				<div class="main__channels-info">
+					<div class="main__channels-title">2x2</div>
+					<div class="main__channels-programm">
+						<div class="main__channels-time">
+							<div class="main__channels-time-item alarm">13:00</div>
+							<div class="main__channels-time-item">14:00</div>
+							<div class="main__channels-time-item">15:00</div>
+						</div>
+						<div class="main__channels-name">
+							<div class="main__channels-name-item alarm">МУЛЬТ ТВ. Сезон 4, 7 серия</div>
+							<div class="main__channels-name-item">ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</div>
+							<div class="main__channels-name-item">БУРДАШЕВ. Сезон 1, 20 серия</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__channels-item">
+				<div class="main__channels-logo">
+					<img src="../../img/content/rbc.svg" alt="">
+				</div>
+				<div class="main__channels-info">
+					<div class="main__channels-title">РБК</div>
+					<div class="main__channels-programm">
+						<div class="main__channels-time">
+							<div class="main__channels-time-item alarm">13:00</div>
+							<div class="main__channels-time-item">14:00</div>
+							<div class="main__channels-time-item">15:00</div>
+						</div>
+						<div class="main__channels-name">
+							<div class="main__channels-name-item alarm">ДЕНЬ. Горючая смесь: как бороться с суррогатом на АЗС</div>
+							<div class="main__channels-name-item">ДЕНЬ. Главные темы</div>
+							<div class="main__channels-name-item">Главные новости</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__channels-item">
+				<div class="main__channels-logo amedia">
+					<img src="../../img/content/amedia.svg" alt="">
+				</div>
+				<div class="main__channels-info">
+					<div class="main__channels-title">AMEDIA PREMIUM</div>
+					<div class="main__channels-programm">
+						<div class="main__channels-time">
+							<div class="main__channels-time-item alarm">13:00</div>
+							<div class="main__channels-time-item">14:00</div>
+							<div class="main__channels-time-item">15:00</div>
+						</div>
+						<div class="main__channels-name">
+							<div class="main__channels-name-item alarm">Клиент всегда мёртв</div>
+							<div class="main__channels-name-item">Голодные игры: Сойка-пересмешница. Часть I</div>
+							<div class="main__channels-name-item">Секс в большом городе</div>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="main__channels-item">
+				<div class="main__channels-logo amedia">
+					<img src="../../img/content/amedia.svg" alt="">
+				</div>
+				<div class="main__channels-info">
+					<div class="main__channels-title">AMEDIA PREMIUM</div>
+					<div class="main__channels-programm">
+						<div class="main__channels-time">
+							<div class="main__channels-time-item alarm">13:00</div>
+							<div class="main__channels-time-item">14:00</div>
+							<div class="main__channels-time-item">15:00</div>
+						</div>
+						<div class="main__channels-name">
+							<div class="main__channels-name-item alarm">Клиент всегда мёртв</div>
+							<div class="main__channels-name-item">Голодные игры: Сойка-пересмешница. Часть I</div>
+							<div class="main__channels-name-item">Секс в большом городе</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>				</div>
+			</div>
+<div class="footer">
+	<div class="footer__content">
+		<div class="footer__logo">
+			<img src="../../img/footer/footer.svg" alt="">
+		</div>
+		<div class="footer__info">
+			<div class="footer__address">426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)</div>
+			<div class="footer__tel">+7 (3412) 93-88-61, 43-29-29</div>
+			<div class="footer__site">htc-cs.ru</div>
+		</div>
+	</div>
+</div><div class="modal" id="modal">
+	<div class="modal__content">
+		<div class="modal__close" data-action="modal-close">&times;</div>
+		<div class="modal__content-row">
+			<div class="modal__title">Вход</div>
+			<div class="modal__body">
+				<input type="text" placeholder="Логин" class="modal__body-input">
+				<input type="password" placeholder="Пароль" class="modal__body-input">
+				<div class="modal__body-checkbox">
+					<div class="modal__body-checkbox-element">
+						<input type="checkbox">
+					</div>
+					<div class="modal__body-checkbox-label">
+						Запомнить
+					</div>
+				</div>
+			</div>
+			<div class="modal__button">
+				<button class="modal__button-element" data-action="login">Войти</button>
+			</div>
+		</div>
+	</div>
+</div>		</div>
+	</body>
+</html>

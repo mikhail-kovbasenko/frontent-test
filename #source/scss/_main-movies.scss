@@ -1,0 +1,137 @@
+.main {
+	&__movies {
+		margin-bottom: 32px;
+	}
+	&__movies-content {
+		display: flex;
+		flex-direction: column;
+	}
+	&__movies-news-title {
+		margin-bottom: 16px;
+	}
+	&__movies-list {
+	}
+	&__movies-list-row {
+		display: flex;
+		justify-content: space-between;
+
+	}
+	&__movies-item {
+		width: 100%;
+		padding: 0 10px;
+	}
+	&__movies-item-poster {
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 280px;
+		height: 370px;
+		border-radius: 8px;
+		margin-bottom: 11px;
+		&.cat {
+			background-image: url("../../img/content/cat.jpg");
+		}
+		&.batman {
+			background-image: url("../../img/content/batman.jpg");
+
+		}
+		&.hollywood {
+			background-image: linear-gradient(
+	      rgba(51,51,51, 0.75), 
+	      rgba(51,51,51, 0.75)), url("../../img/content/hollywood.jpg");
+	      font-size: 16px;
+	      color: #F2F2F2;
+	      line-height: 22.4px;
+	      padding: 16px;
+
+		}
+		&.girl {
+			background-image: url("../../img/content/girl.jpg");
+		}
+	}
+	&__movies-item-description {
+		color: #333;
+		font-size: 20px;
+		line-height: 23.7px;
+		display: flex;
+		align-self: center;
+	}
+}
+.main {
+	&__genres {
+		
+	}
+	&__genres-content {
+	}
+	&__genres-genres-title {
+		font-weight: 500;
+		font-size: 24px;
+		margin-bottom: 16px;
+	}
+	&__genres-list {
+	}
+	&__genres-row {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__genres-item {
+		width: 100%;
+		padding: 0 10px;
+	}
+	&__genres-poster {
+		width: 280px;
+		height: 208px;
+		border-radius: 6px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		&.comedy {
+			background: linear-gradient(127.83deg, #F2C94C 8.44%, #F29A4A 91.36%);
+			box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+		}
+		&.drama {
+			background: linear-gradient(127.83deg, #F2994A 8.44%, #EB5757 91.36%);
+			opacity: 0.8;
+		}
+		&.sci-fi {
+			background: linear-gradient(127.83deg, #56CCF2 8.44%, #2F80ED 91.36%);
+			opacity: 0.8;
+		}
+		&.horror {
+			background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+			opacity: 0.8;
+		}
+	}
+	&__genres-description {
+		color: #fff;
+		font-size: 20px;
+		position: relative;
+		top: 32px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.main {
+		&__movies-news-title, &__genres-genres-title {
+			text-align: center;
+			margin-bottom: 25px;
+		}
+		&__movies-list-row, &__genres-row{
+			flex-wrap: wrap;
+		}
+		&__movies-item, &__genres-item {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+			&-poster {
+				&.batman {
+					position: relative;
+					top: -11px;
+				}
+			}
+		}
+	}
+}
