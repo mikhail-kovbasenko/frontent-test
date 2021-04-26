@@ -28,16 +28,16 @@
 		border-radius: 8px;
 		margin-bottom: 11px;
 		&.cat {
-			background-image: url("../../img/content/cat.jpg");
+			background-image: url("img/content/cat.jpg");
 		}
 		&.batman {
-			background-image: url("../../img/content/batman.jpg");
+			background-image: url("img/content/batman.jpg");
 
 		}
 		&.hollywood {
 			background-image: linear-gradient(
 	      rgba(51,51,51, 0.75), 
-	      rgba(51,51,51, 0.75)), url("../../img/content/hollywood.jpg");
+	      rgba(51,51,51, 0.75)), url("img/content/hollywood.jpg");
 	      font-size: 16px;
 	      color: #F2F2F2;
 	      line-height: 22.4px;
@@ -45,7 +45,7 @@
 
 		}
 		&.girl {
-			background-image: url("../../img/content/girl.jpg");
+			background-image: url("img/content/girl.jpg");
 		}
 	}
 	&__movies-item-description {
