@@ -29,5 +29,8 @@
 @media (max-width: 1179px) {
 	.footer {
 		min-width: 1180px;
+		&__info {
+			font-size: 12px;
+		}
 	}
 }

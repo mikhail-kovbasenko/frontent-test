@@ -1,7 +1,6 @@
 .main {
 	&__channels {
 		display: none;
-		padding: 10px;
 		flex: 1 0 auto;
 		width: 1180px;
 	}
@@ -10,11 +9,14 @@
 		position: relative;
 		display: flex;
 		flex: 1 0 auto;
+		width: 100%;
 		justify-content: center;
 	}
 	&__channels-container {
 		position: absolute;
 		overflow: hidden;
+		width: 100%;
+
 	}
 	&__channels-item {
 		padding: 21px 176px;
@@ -70,12 +72,12 @@
 }
 * {
     scrollbar-width: auto;
-    scrollbar-color: red #ffffff;
+    scrollbar-color: #BDBDBD #ffffff;
   }
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 16px;
+    width: 12px;
   }
 
   *::-webkit-scrollbar-track {
@@ -83,7 +85,7 @@
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: red;
+    background-color: #BDBDBD;
     border-radius: 10px;
     border: 3px solid #ffffff;
   }
@@ -91,6 +93,10 @@
   		.main {
 			&__channels {
 				max-width: 1000px;
+			}
+			&__channels-item {
+				padding: 8px 60px;
+				font-size: 11px;
 			}
 		}
   }
